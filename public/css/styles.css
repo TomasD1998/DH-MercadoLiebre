@@ -1,0 +1,271 @@
+/* SELECTOR UNIVERSAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS BODY */
+body {
+  font-size: 12px;
+  font-family: roboto;
+  background-color: #ebebeb;
+}
+
+/* CSS HEADER */
+header {
+  background-color: #eac926;
+  padding: 10px 10px 20px 10px;
+}
+
+.logo {
+  width: 40%;
+  display: inline;
+  margin-left: 10px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.barra-busqueda {
+  padding-top: 5px;
+  margin-left: 20px;
+}
+
+.busqueda {
+  width: 80%;
+}
+
+.fa-hand-holding-usd {
+  margin-right: 5px;
+}
+
+.compra-cuotas {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-id-card,
+.fa-sign-in-alt,
+.fa-shopping-basket {
+  margin-left: 5px;
+}
+
+.burger-menu {
+  margin: auto;
+  background-color: #03264c;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/* CSS MAIN */
+main {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  width: 100%;
+  margin: 0;
+}
+
+.section_producto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.producto {
+  background-color: white;
+  max-width: 360px;
+}
+
+.producto-imagen {
+  width: 100%;
+}
+
+.detalle-producto {
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+}
+
+.precio-descuento {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  align-items: baseline;
+  width: 100%;
+  gap: 15px;
+}
+
+.truck-icon {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: relative;
+  left: 290px;
+  bottom: 30px;
+  align-content: center;
+  
+}
+
+.visita,
+.ofertas {
+  font-size: 24px;
+  
+}
+
+.precios {
+  font-size: 18px;
+}
+
+.descuento {
+  font-size: 16px;
+}
+
+.descripcion {
+  font-size: 16px;
+}
+
+/* CSS FOOTER */
+footer {
+  text-align: center;
+  margin: 20px;
+  
+}
+
+.fa-credit-card,
+.fa-gift,
+.fa-user-shield {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* CSS MOBILE ONLY */
+.descripcion {
+  display: none;
+}
+
+.navbar {
+  display: none;
+}
+
+/* CSS MEDIA QUERY TABLET */
+@media (min-width: 426px) {
+.section_visita {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+ .section_oferta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+ }
+
+.ofertas {
+  margin-top: 14px;
+}
+
+  .descripcion {
+  display: block;
+}
+
+.compra-cuotas {
+  font-size: 20px;
+}
+
+.fa-search {
+  font-size: 20px;
+  padding: 2px;
+}
+
+.barra-busqueda {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  height: 50%;
+  width: 50%;
+  padding-top: 30px;
+}
+
+.busqueda {
+  margin-left: 5px;
+}
+
+.producto {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  max-width: 300px; 
+}
+
+.truck-icon {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: relative;
+  left: 250px;
+  bottom: 30px;
+  align-content: center;
+}
+
+.navbar {
+  display: block;
+  font-size: 20px;
+}
+
+.burger-menu {
+  display: none;
+}
+
+footer {
+  font-size: 20px;
+}
+} 
+
+/* CSS MEDIA QUERY DESKTOP */
+@media (min-width: 769px) {
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+
+
+}
