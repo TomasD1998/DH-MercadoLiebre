@@ -32,7 +32,6 @@ header {
 
 .barra-busqueda {
   padding-top: 5px;
-  
 }
 
 .fa-search {
@@ -52,7 +51,7 @@ header {
 .busqueda {
   width: 95%;
   height: 80%;
-  border: 1px solid white ;
+  border: 1px solid white;
   border-radius: 5px;
 }
 
@@ -103,7 +102,8 @@ main {
   margin: 0 0 10px 0;
 }
 
-.section_visita, .section_oferta {
+.section_visita,
+.section_oferta {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,13 +140,12 @@ main {
   width: 30px;
   height: 30px;
   border: 1px solid #39b54a;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 50%;
   position: relative;
   left: 290px;
   bottom: 30px;
   align-content: center;
-  
 }
 
 .visita,
@@ -171,7 +170,6 @@ main {
 footer {
   text-align: center;
   margin: 20px;
-  
 }
 
 .fa-credit-card,
@@ -192,153 +190,151 @@ footer {
 
 /*--------------------------------CSS MEDIA QUERY TABLET----------------------------------------*/
 @media (min-width: 426px) {
-.logo {
-  width: 50%;
-}
+  .logo {
+    width: 50%;
+  }
 
-.busqueda {
-  width: 80%;
-  height: 40px;
-  
-}
+  .busqueda {
+    width: 80%;
+    height: 40px;
+  }
 
-.barra-busqueda {
-  margin-right: 10px;
-}
+  .barra-busqueda {
+    margin-right: 10px;
+  }
 
-.header-top {
-  justify-content: left;
-}
+  .header-top {
+    justify-content: left;
+  }
 
-.section_visita, .section_oferta {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
+  .section_visita,
+  .section_oferta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
 
-.visita, .ofertas {
-  margin: 10px 0 10px 20px
-}
+  .visita,
+  .ofertas {
+    margin: 10px 0 10px 20px;
+  }
 
-.descripcion {
-  display: block;
-}
+  .descripcion {
+    display: block;
+  }
 
-.compra-cuotas {
-  font-size: 20px;
-}
+  .compra-cuotas {
+    font-size: 20px;
+  }
 
-.fa-search {
-  font-size: 22px;
-  
-}
+  .fa-search {
+    font-size: 22px;
+  }
 
-.barra-busqueda {
-  display: flex;
-  justify-content: end;
-  align-content: center;
-  height: 50%;
-  width: 50%;
-  padding-top: 30px;
-}
+  .barra-busqueda {
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    height: 50%;
+    width: 50%;
+    padding-top: 30px;
+  }
 
-.busqueda {
-  margin-left: 5px;
-}
+  .busqueda {
+    margin-left: 5px;
+  }
 
-.producto {
-  box-shadow: 0px 0px 10px rgb(100, 100, 100);
-  max-width: 315px; 
-}
+  .producto {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    max-width: 315px;
+  }
 
-.truck-icon {
-  display: block;
-  font-size: 16px;
-  padding: 5px;
-  width: 30px;
-  height: 30px;
-  border: 1px solid #39b54a;
-  background-color: #FFF;
-  border-radius: 50%;
-  position: relative;
-  left: 250px;
-  bottom: 30px;
-  align-content: center;
-}
+  .truck-icon {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    align-content: center;
+  }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 20px;
-}
-.nav-accesos {
-  display: inline-flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  font-size: 15px;
-  list-style-type: none;
-  gap: 15px
-}
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  .nav-accesos {
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 15px;
+    list-style-type: none;
+    gap: 15px;
+  }
 
-.nav-perfil {
-  display: inline-flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  font-size: 15px;
-  list-style-type: none;
-  gap: 15px; 
-}
+  .nav-perfil {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: 15px;
+    list-style-type: none;
+    gap: 15px;
+  }
 
-.burger-menu {
-  display: none;
-}
+  .burger-menu {
+    display: none;
+  }
 
-footer {
-  font-size: 20px;
+  footer {
+    font-size: 20px;
+  }
 }
-} 
 
 /*--------------------------------CSS MEDIA QUERY DESKTOP----------------------------------------*/
 @media (min-width: 769px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+  }
+  .nav-accesos {
+    display: inline-flex;
+    justify-content: start;
+    flex-direction: row;
+    font-size: 20px;
+    list-style-type: none;
+    gap: 25px;
+  }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 25px;
-  
-}
-.nav-accesos {
-  display: inline-flex;
-  justify-content: start;
-  flex-direction: row;
-  font-size: 20px;
-  list-style-type: none;
-  gap: 25px
-}
+  .nav-perfil {
+    display: inline-flex;
+    justify-content: end;
+    flex-direction: row;
+    font-size: 20px;
+    list-style-type: none;
+    gap: 25px;
+  }
 
-.nav-perfil {
-  display: inline-flex;
-  justify-content: end;
-  flex-direction: row;
-  font-size: 20px;
-  list-style-type: none;
-  gap: 25px;
-}
+  .producto {
+    max-width: 285px;
+  }
 
-.producto {
-  max-width: 285px;
-}
-
-.truck-icon {
-  left: 220px;
-}
+  .truck-icon {
+    left: 220px;
+  }
 }
