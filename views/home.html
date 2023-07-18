@@ -1,7 +1,7 @@
-<!-- INICIO HTML -->
+<!----------------------------------INICIO HTML--------------------------------------------------->
 <!DOCTYPE html>
 <html lang="es">
-  <!-- INICIO HEAD -->
+  <!----------------------------------INICIO HEAD--------------------------------------------------->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,9 +21,9 @@
     <title>Mercado Liebre</title>
   </head>
 
-  <!-- INICIO BODY -->
+  <!----------------------------------INICIO BODY--------------------------------------------------->
   <body>
-    <!-- INICIO HEADER -->
+    <!----------------------------------INICIO HEADER------------------------------------------------->
     <header>
       <div class="header-top">
         <img
@@ -32,12 +32,12 @@
           alt="Logo Mercado Liebre"
         />
         <form class="barra-busqueda">
-          <button><i class="fas fa-search"></i></button>
+          <button id="button-search"><i class="fas fa-search"></i></button>
           <input
             class="busqueda"
             type="search"
             name="barra de busqueda"
-            placeholder="Buscar productos"
+            placeholder="  Buscar productos"
           />
         </form>
       </div>
@@ -48,24 +48,28 @@
         </p>
       </div>
       <nav class="navbar">
-        <ul>
+        <ul class="nav-accesos">
           <li><a href="#">Ofertas</a></li>
           <li><a href="#">Tiendas Oficiales</a></li>
           <li><a href="#">Vender</a></li>
           <li><a href="#">Ayuda</a></li>
+        </ul>
           <br />
-          <li>
-            <a href="#">Creá tu cuenta</a
-            ><i class="far fa-id-card" style="color: #000000"></i>
-          </li>
-          <li>
-            <a href="#">Ingresá</a
-            ><i class="fas fa-sign-in-alt" style="color: #000000"></i>
-          </li>
-          <li>
-            <a href="#">Mis compras</a
-            ><i class="fas fa-shopping-basket" style="color: #000000"></i>
-          </li>
+          <ul class="nav-perfil">
+            <li>
+              <a href="#">Creá tu cuenta</a
+              ><i class="far fa-id-card" style="color: #000000"></i>
+            </li>
+            <li>
+              <a href="#">Ingresá</a
+              ><i class="fas fa-sign-in-alt" style="color: #000000"></i>
+            </li>
+            <li>
+              <a href="#">Mis compras</a
+              ><i class="fas fa-shopping-basket" style="color: #000000"></i>
+            </li>
+          
+          
         </ul>
         <br />
       </nav>
@@ -82,12 +86,11 @@
     <!-- INICIO MAIN -->
     <main>
       <div class="visita">
-          <h3 style="color: #666">Basado en tu última visita</h3>
-        </div>
+        <h3 style="color: #666">Basado en tu última visita</h3>
+      </div>
       <section class="section_visita">
         <br />
-        
-        
+
         <br />
         <article class="producto">
           <img
@@ -109,8 +112,8 @@
             </p>
           </div>
         </article>
-        <br>
-        <div class="producto">
+        <br />
+        <article class="producto">
           <img
             class="producto-imagen"
             src="/images/img-macbook-pro-2019.jpg"
@@ -130,9 +133,9 @@
               <b>MacBook Pro 2019</b>
             </p>
           </div>
-        </div>
+        </article>
         <br />
-        <div class="producto">
+        <article class="producto">
           <img
             class="producto-imagen"
             src="/images/img-samsung-galaxy-s10.jpg"
@@ -152,9 +155,9 @@
               <b>Samsung Galaxy S10</b>
             </p>
           </div>
-        </div>
+        </article>
         <br />
-        <div class="producto">
+        <article class="producto">
           <img
             class="producto-imagen"
             src="/images/img-tv-samsung-smart.jpg"
@@ -174,16 +177,15 @@
               <b>SmartTv Samsung 43"</b>
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <br />
       <div class="ofertas">
         <h3 style="color: #666">Ofertas</h3>
       </div>
       <section class="section_oferta">
-        
         <br />
-        <div class="producto">
+        <article class="producto">
           <img
             class="producto-imagen"
             src="/images/img-cafetera-moulinex.jpg"
@@ -203,9 +205,9 @@
               <b>Cafetera Moulinex</b>
             </p>
           </div>
-        </div>
+        </article>
         <br />
-        <div class="producto">
+        <article class="producto">
           <img
             class="producto-imagen"
             src="/images/img-macbook-pro-2019.jpg"
@@ -225,9 +227,9 @@
               <b>MacBook Pro 2019</b>
             </p>
           </div>
-        </div>
+        </article>
         <br />
-        <div class="producto">
+        <article class="producto">
           <img
             class="producto-imagen"
             src="/images/img-samsung-galaxy-s10.jpg"
@@ -247,9 +249,9 @@
               <b>Samsung Galaxy S10</b>
             </p>
           </div>
-        </div>
+        </article>
         <br />
-        <div class="producto">
+        <article class="producto">
           <img
             class="producto-imagen"
             src="/images/img-tv-samsung-smart.jpg"
@@ -269,12 +271,12 @@
               <b>SmartTv Samsung 43"</b>
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <br />
     </main>
 
-    <!-- INICIO FOOTER -->
+    <!-----------------------------------INICIO FOOTER------------------------------------------------>
     <footer>
       <section>
         <i class="fas fa-credit-card" style="color: #03264c"></i>

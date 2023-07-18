@@ -1,4 +1,4 @@
-/* SELECTOR UNIVERSAL */
+/*-----------------------------------SELECTOR UNIVERSAL------------------------------------------*/
 
 * {
   margin: 0;
@@ -6,21 +6,21 @@
   box-sizing: border-box;
 }
 
-/* CSS BODY */
+/*-----------------------------------------CSS BODY----------------------------------------------*/
 body {
   font-size: 12px;
   font-family: roboto;
   background-color: #ebebeb;
 }
 
-/* CSS HEADER */
+/*-----------------------------------------CSS HEADER--------------------------------------------*/
 header {
   background-color: #eac926;
-  padding: 10px 10px 20px 10px;
+  padding: 10px;
 }
 
 .logo {
-  width: 40%;
+  width: 50%;
   display: inline;
   margin-left: 10px;
 }
@@ -32,11 +32,28 @@ header {
 
 .barra-busqueda {
   padding-top: 5px;
-  margin-left: 20px;
+  
+}
+
+.fa-search {
+  background-color: white;
+}
+
+#button-search {
+  background-color: white;
+  border: 1px solid white;
+  color: #666;
+  position: absolute;
+  right: 30px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 .busqueda {
-  width: 80%;
+  width: 95%;
+  height: 80%;
+  border: 1px solid white ;
+  border-radius: 5px;
 }
 
 .fa-hand-holding-usd {
@@ -73,7 +90,7 @@ a {
   border-radius: 5px;
 }
 
-/* CSS MAIN */
+/*-----------------------------------------CSS MAIN----------------------------------------------*/
 main {
   width: 90%;
   margin: 0 auto;
@@ -83,15 +100,14 @@ main {
 
 .banner {
   width: 100%;
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 
-.section_producto {
+.section_visita, .section_oferta {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .producto {
@@ -136,7 +152,7 @@ main {
 .visita,
 .ofertas {
   font-size: 24px;
-  
+  margin-left: 12px;
 }
 
 .precios {
@@ -151,7 +167,7 @@ main {
   font-size: 16px;
 }
 
-/* CSS FOOTER */
+/*--------------------------------------CSS FOOTER-----------------------------------------------*/
 footer {
   text-align: center;
   margin: 20px;
@@ -165,7 +181,7 @@ footer {
   margin-bottom: 10px;
 }
 
-/* CSS MOBILE ONLY */
+/*-----------------------------------CSS MOBILE ONLY---------------------------------------------*/
 .descripcion {
   display: none;
 }
@@ -174,28 +190,39 @@ footer {
   display: none;
 }
 
-/* CSS MEDIA QUERY TABLET */
+/*--------------------------------CSS MEDIA QUERY TABLET----------------------------------------*/
 @media (min-width: 426px) {
-.section_visita {
+.logo {
+  width: 50%;
+}
+
+.busqueda {
+  width: 80%;
+  height: 40px;
+  
+}
+
+.barra-busqueda {
+  margin-right: 10px;
+}
+
+.header-top {
+  justify-content: left;
+}
+
+.section_visita, .section_oferta {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
- .section_oferta {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
- }
 
-.ofertas {
-  margin-top: 14px;
+.visita, .ofertas {
+  margin: 10px 0 10px 20px
 }
 
-  .descripcion {
+.descripcion {
   display: block;
 }
 
@@ -204,8 +231,8 @@ footer {
 }
 
 .fa-search {
-  font-size: 20px;
-  padding: 2px;
+  font-size: 22px;
+  
 }
 
 .barra-busqueda {
@@ -223,7 +250,7 @@ footer {
 
 .producto {
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
-  max-width: 300px; 
+  max-width: 315px; 
 }
 
 .truck-icon {
@@ -242,8 +269,26 @@ footer {
 }
 
 .navbar {
-  display: block;
-  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.nav-accesos {
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-size: 15px;
+  list-style-type: none;
+  gap: 15px
+}
+
+.nav-perfil {
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  font-size: 15px;
+  list-style-type: none;
+  gap: 15px; 
 }
 
 .burger-menu {
@@ -255,7 +300,7 @@ footer {
 }
 } 
 
-/* CSS MEDIA QUERY DESKTOP */
+/*--------------------------------CSS MEDIA QUERY DESKTOP----------------------------------------*/
 @media (min-width: 769px) {
 
 main {
@@ -263,9 +308,37 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  
+}
+.nav-accesos {
+  display: inline-flex;
+  justify-content: start;
+  flex-direction: row;
+  font-size: 20px;
+  list-style-type: none;
+  gap: 25px
+}
 
+.nav-perfil {
+  display: inline-flex;
+  justify-content: end;
+  flex-direction: row;
+  font-size: 20px;
+  list-style-type: none;
+  gap: 25px;
+}
 
+.producto {
+  max-width: 285px;
+}
+
+.truck-icon {
+  left: 220px;
+}
 }
