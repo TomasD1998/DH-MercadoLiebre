@@ -111,10 +111,10 @@ main {
 
 .titulos {
   width: 90%;
-    text-align: start;
-    margin: 1rem;
-    font-size: 24px;
-    color: #666;
+  text-align: start;
+  margin: 1rem;
+  font-size: 24px;
+  color: #666;
 }
 
 .producto {
@@ -228,9 +228,9 @@ footer {
     gap: 20px;
   }
 
-.titulos {
-  margin: 10px 10px 10px 20px;
-}
+  .titulos {
+    margin: 10px 10px 10px 20px;
+  }
 
   .descripcion {
     display: block;
@@ -344,8 +344,6 @@ footer {
     list-style-type: none;
     gap: 25px;
   }
-
-  
 
   .producto {
     max-width: 285px;

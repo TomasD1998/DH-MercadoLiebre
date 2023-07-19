@@ -1,0 +1,15 @@
+/*-----------------------------------CSS FORMULARIO REGISTRO-------------------------------------*/
+main {
+    display: flex;
+    align-items: center;
+}
+
+.formulario {
+    font-size: 20px;
+    width: fit-content;
+    height: auto;
+    border: 1px solid red;
+    padding: 20px;
+    background-color: aqua;
+    line-height: 30px;
+}

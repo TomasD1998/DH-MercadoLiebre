@@ -12,6 +12,10 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/views/home.html");
 });
 
+app.get("/register", (req, res) => {
+  res.sendFile(__dirname + "/views/register.html");
+});
+
 app.listen(puerto, () => {
   console.log("Aplicación esuchando en puerto 3030");
 });
