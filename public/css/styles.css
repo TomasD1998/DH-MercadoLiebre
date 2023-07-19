@@ -99,7 +99,6 @@ main {
 
 .banner {
   width: 100%;
-  margin: 0 0 10px 0;
 }
 
 .section_visita,
@@ -110,9 +109,18 @@ main {
   align-items: center;
 }
 
+.titulos {
+  width: 90%;
+    text-align: start;
+    margin: 1rem;
+    font-size: 24px;
+    color: #666;
+}
+
 .producto {
   background-color: white;
   max-width: 360px;
+  margin-bottom: 10px;
 }
 
 .producto-imagen {
@@ -151,7 +159,7 @@ main {
 .visita,
 .ofertas {
   font-size: 24px;
-  margin-left: 12px;
+  margin: 10px 0 10px 12px;
 }
 
 .precios {
@@ -177,6 +185,10 @@ footer {
 .fa-user-shield {
   font-size: 2em;
   margin-bottom: 10px;
+}
+
+.section-footer {
+  margin-bottom: 15px;
 }
 
 /*-----------------------------------CSS MOBILE ONLY---------------------------------------------*/
@@ -216,13 +228,13 @@ footer {
     gap: 20px;
   }
 
-  .visita,
-  .ofertas {
-    margin: 10px 0 10px 20px;
-  }
+.titulos {
+  margin: 10px 10px 10px 20px;
+}
 
   .descripcion {
     display: block;
+    margin-top: 10px;
   }
 
   .compra-cuotas {
@@ -269,7 +281,7 @@ footer {
   .navbar {
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
+    margin: 0 10px 0 10px;
   }
   .nav-accesos {
     display: inline-flex;
@@ -304,7 +316,10 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+  }
+
+  .titulos {
+    margin: 10px 10px 10px 17px;
   }
 
   .navbar {
@@ -330,8 +345,11 @@ footer {
     gap: 25px;
   }
 
+  
+
   .producto {
     max-width: 285px;
+    margin-left: 20px;
   }
 
   .truck-icon {
