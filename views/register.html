@@ -74,36 +74,50 @@
 
         <section class="formulario">
             <form action="#" method="post">
+                <h4 style="color: #666;">Datos Personales</h4>
                 <div id="nombre_apellido">
-                    <label for="nombre_apellido">Nombre y Apellido:</label>
-                    <input type="text" id="nombre_apellido" name="nombre_apellido" required>
+                    <label for="nombre_apellido"></label>
+                    <input type="text" id="nombre_apellido" name="nombre_apellido" required placeholder="Nombre y Apellido">
                 </div>
-                    
-                <div id="usuario">
-                    <label for="nombre_usuario">Nombre de usuari@:</label>
-                    <input type="text" id="nombre_usuario" name="nombre_usuario" required>
-                </div>
-                    
-                <div id="nacimiento">
-                    <label for="fecha_nacimiento">Fecha de nacimiento:</label>
-                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
-                </div>
-                    
+                
                 <div id="domicilio">
-                    <label for="domicilio">Domicilio:</label>
-                    <input type="text" id="domicilio" name="domicilio" required>
+                  <label for="domicilio"></label>
+                  <input type="text" id="domicilio" name="domicilio" required placeholder="Domicilio">
+                </div>
+
+                <div id="nombre_usuario">
+                    <label for="nombre_usuario"></label>
+                    <input type="text" id="nombre_usuario" name="nombre_usuario" required placeholder="Usuario">
+                </div>
+                
+                <div id="contraseña">
+                  <label for="contraseña"></label>
+                  <input type="password" id="contraseña" name="contraseña" required placeholder="Contraseña">
+                </div>
+                  
+                <div id="confirmar_contraseña">
+                  <label for="confirmar_contraseña"></label>
+                  <input type="password" id="confirmar_contraseña" name="confirmar_contraseña" required placeholder="Confirmar Contraseña">
+                </div>
+                
+                <h4 style="color: #666;">Fecha de Nacimiento</h4>
+                <div id="fecha_nacimiento">
+                    <label for="fecha_nacimiento"></label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required placeholder="Fecha de Nacimiento">
                 </div>
                     
+                <h4 style="color: #666;">Perfil de Usuario</h4>
                 <div id="perfil_usuario">
-                    <label>Perfil del usuario:</label>
+                    
                     <input type="radio" id="comprar" name="perfil_usuario" value="comprar" required>
                     <label for="comprar">Comprar</label>
                     <input type="radio" id="vender" name="perfil_usuario" value="vender" required>
                     <label for="vender">Vender</label>
                 </div>
-                    
+                
+                <h4 style="color: #666;">Categorías de interés</h4>
                 <div id="interes">
-                    <label>Categorías de interés:</label>
+                    
                     <input type="checkbox" id="electro" name="categorias[]" value="Electro">
                     <label for="electro">Electro</label>
                     <input type="checkbox" id="moda" name="categorias[]" value="Moda">
@@ -115,20 +129,11 @@
                     <input type="checkbox" id="vida_sana" name="categorias[]" value="Vida sana">
                     <label for="vida_sana">Vida sana</label>
                 </div>
-                    
+                
+                <h4 style="color: #666;">Foto de Usuario</h4>
                 <div id="foto_usuario">
-                    <label for="foto_usuario">Foto de usuario:</label>
+                    <label for="foto_usuario"></label>
                     <input type="file" id="foto_usuario" name="foto_usuario" accept="image/*" required>
-                </div>
-                    
-                <div id="contraseña">
-                    <label for="contraseña">Contraseña:</label>
-                    <input type="password" id="contraseña" name="contraseña" required>
-                </div>
-                    
-                <div id="confirmar">
-                    <label for="confirmar_contraseña">Confirmar contraseña:</label>
-                    <input type="password" id="confirmar_contraseña" name="confirmar_contraseña" required>
                 </div>
                     
                 <div id="submit_reset">

@@ -8,8 +8,29 @@ main {
     font-size: 20px;
     width: fit-content;
     height: auto;
-    border: 1px solid red;
+    background-color: white;
     padding: 20px;
-    background-color: aqua;
     line-height: 30px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    border-radius: 15px;
 }
+
+#nombre_apellido, #domicilio, #nombre_usuario, #contraseña, #confirmar_contraseña, #fecha_nacimiento, #foto_usuario, #submit_reset {
+    height: 30px;
+    margin-bottom: 10px;
+    border: 0 solid white;
+    border-radius: 4px;
+    background-color: #ebebeb;
+    display: flex;
+    width: fit-content;
+}
+
+#foto_usuario {
+   padding: 3px; 
+}
+
+#confirmar_contraseña, #fecha_nacimiento, #comprar, #electro, #foto_usuario {
+    margin-bottom: 25px;
+}
+
+
