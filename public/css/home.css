@@ -154,6 +154,7 @@ main {
   left: 290px;
   bottom: 30px;
   align-content: center;
+  transition: all 0.5s;
 }
 
 .visita,
@@ -171,7 +172,10 @@ main {
 }
 
 .descripcion {
+  display: none;
   font-size: 16px;
+  color: #666;
+  
 }
 
 /*--------------------------------------CSS FOOTER-----------------------------------------------*/
@@ -192,9 +196,7 @@ footer {
 }
 
 /*-----------------------------------CSS MOBILE ONLY---------------------------------------------*/
-.descripcion {
-  display: none;
-}
+
 
 .navbar {
   display: none;
@@ -237,6 +239,8 @@ footer {
     margin-top: 10px;
   }
 
+  
+
   .compra-cuotas {
     font-size: 20px;
   }
@@ -259,7 +263,6 @@ footer {
   }
 
   .producto {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     max-width: 315px;
   }
 
@@ -347,9 +350,33 @@ footer {
   .producto {
     max-width: 285px;
     margin-left: 20px;
+    transition: all 0.5s;
   }
 
   .truck-icon {
     left: 220px;
+  }
+
+  .descripcion {
+    color: white;
+    transition: all 0.5s;
+  }
+
+  .producto:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .producto:hover .descripcion {
+    color: #666;
+  }
+
+  .producto:hover .truck-icon {
+    transform: rotate(-90deg);
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
