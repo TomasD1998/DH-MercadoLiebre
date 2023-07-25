@@ -43,7 +43,7 @@ header {
   border: 1px solid white;
   color: #666;
   position: absolute;
-  right: 30px;
+  right: 24px;
   margin-top: 10px;
   cursor: pointer;
 }
@@ -314,7 +314,6 @@ footer {
 @media (min-width: 769px) {
   main {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
   }
 
