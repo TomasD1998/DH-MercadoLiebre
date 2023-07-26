@@ -189,6 +189,7 @@ footer {
 .fa-user-shield {
   font-size: 2em;
   margin-bottom: 10px;
+  transition: all 0.5s;
 }
 
 .section-footer {
@@ -374,9 +375,16 @@ footer {
     transform: rotate(-90deg);
   }
 
-  footer {
+  #footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .fa-credit-card, .fa-gift, .fa-user-shield {
+    color: #03264c;
+  }
+  .fa-credit-card:hover, .fa-gift:hover, .fa-user-shield:hover {
+    color: #0022aa;
   }
 }

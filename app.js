@@ -3,7 +3,11 @@ const fs = require("fs");
 const path = require("path");
 
 const app = express();
-const puerto = 3030;
+
+const PORT = process.env.PORT || 3030;
+app.listen(PORT, () => {
+  console.log("Aplicación esuchando en puerto 3030");
+});
 
 app.use(express.json());
 app.use("/", express.static(__dirname + "/public"));
@@ -20,6 +24,3 @@ app.get("/login", (req, res) => {
   res.sendFile(__dirname + "/views/login.html");
 });
 
-app.listen(puerto, () => {
-  console.log("Aplicación esuchando en puerto 3030");
-});
