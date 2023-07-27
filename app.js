@@ -12,7 +12,7 @@ app.listen(PORT, () => {
 app.use(express.json());
 app.use("/", express.static(__dirname + "/public"));
 
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
   res.sendFile(__dirname + "/views/home.html");
 });
 

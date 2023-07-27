@@ -175,7 +175,6 @@ main {
   display: none;
   font-size: 16px;
   color: #666;
-  
 }
 
 /*--------------------------------------CSS FOOTER-----------------------------------------------*/
@@ -187,6 +186,7 @@ footer {
 .fa-credit-card,
 .fa-gift,
 .fa-user-shield {
+  color: #03264c;
   font-size: 2em;
   margin-bottom: 10px;
   transition: all 0.5s;
@@ -197,7 +197,6 @@ footer {
 }
 
 /*-----------------------------------CSS MOBILE ONLY---------------------------------------------*/
-
 
 .navbar {
   display: none;
@@ -239,8 +238,6 @@ footer {
     display: block;
     margin-top: 10px;
   }
-
-  
 
   .compra-cuotas {
     font-size: 20px;
@@ -381,10 +378,9 @@ footer {
     justify-content: center;
   }
 
-  .fa-credit-card, .fa-gift, .fa-user-shield {
-    color: #03264c;
-  }
-  .fa-credit-card:hover, .fa-gift:hover, .fa-user-shield:hover {
+  .fa-credit-card:hover,
+  .fa-gift:hover,
+  .fa-user-shield:hover {
     color: #0022aa;
   }
 }
